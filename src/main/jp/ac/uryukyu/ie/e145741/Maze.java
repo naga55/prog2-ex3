@@ -16,7 +16,7 @@ public class Maze {
         int i = 0;
 
         try{
-            File file = new File("/Users/e145741/Ideaprojects/prog2-ex3/src/main/map.txt");
+            File file = new File("/Users/e165750/Ideaprojects/prog2-ex3/src/main/map.txt");
 
             if (checkBeforeReadfile(file)){
                 BufferedReader br = new BufferedReader(new FileReader(file));
